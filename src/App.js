@@ -15,7 +15,7 @@ const bgStyle = {
 
 const hdrStyle = {
   color:"white",
-  paddingTop: "65px",
+  paddingTop: "40px",
   textAlign: "center",
   fontSize: "64px",
   fontWeight: "300"
@@ -74,12 +74,14 @@ function App() {
         <p style={descStyle}>
           I am a developer from Iowa working at MidAmerican Energy.  
           I care about people and the planet.  
-          I post some code <a href="https://github.com/jaygraffagna">here</a>.  
-          I can be reached via email <a href="mailto:jaygraffagna10@gmail.com">here</a>.
+          If I am not coding, I am outside adventuring in the world.
+          I post some code <a href="https://github.com/jaygraffagna">here</a>.
+          I am interested in collaborating on any exciting project.
+          I can be reached <a href="mailto:jaygraffagna10@gmail.com">here</a>.
         </p>
       </div>
       <p style={resumStyle}>
-        /* Resume */ <br/>
+        /* Resume */ <br/><br/>
       
         Education: Augustana College - B.A. Computer Science & Applied Mathematics<br/>
         GPA: 3.5<br/><br/>
@@ -90,7 +92,7 @@ function App() {
           
         Tools: Visual Studio, PL/SQL Developer, VS Code, Eclipse, Microsoft TFS, Git, Splunk<br/><br/>
           
-        Employement<br/><br/>
+        // Employement<br/><br/>
           
         Software Developer II - MidAmerican Energy Davenport, IA<br/>
         * Lead projects from design, development, & deployment to meet business requirements<br/>
@@ -110,7 +112,8 @@ function App() {
         * Assisted in building modules within software development projects<br/>
         * Branched code bases to divide developemnt work<br/><br/>
           
-        Skills<br/>
+        // Skills<br/><br/>
+
         * Strong Communicator<br/>
         * Project Leadership<br/>
         * Task Planning<br/>
@@ -118,7 +121,8 @@ function App() {
         * High Adaptive<br/>
         * Positive Minded<br/><br/>
           
-        Attributes<br/>
+        // Attributes<br/><br/>
+
         * Bettendorf Natural Resouces Commitee Member<br/>
         * Living Lands & Waters Volunteer<br/>
         * Augustana Varsity Track Captain<br/>
