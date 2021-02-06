@@ -1,11 +1,25 @@
-var LabelUI;
+var modalUI;
+var stayBtnUI;
+var leaveBtnUI;
 
-function run() {
-
+function showModal() {
+  modalUI.style.display = "block";
 }
 
-const Init = function(){
-    //LabelUI = document.getElementById('label');
+function closeModal() {
+  modalUI.style.display = "none";
+}
 
-    //LabelUI.addEventListener('label', run);
-}();
+function leaveSite() {
+  window.location.href = "https://github.com/";
+}
+
+const Init = (function () {
+  modalUI = document.getElementById("modal");
+  stayBtnUI = document.getElementById("stay");
+  leaveBtnUI = document.getElementById("leave");
+
+  stayBtnUI.addEventListener("click", closeModal);
+  leaveBtnUI.addEventListener("click", leaveSite);
+  setTimeout(showModal, 300000);
+})();
